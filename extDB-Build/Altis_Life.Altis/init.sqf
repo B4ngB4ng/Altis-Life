@@ -12,4 +12,11 @@ life_versionInfo = "Altis Life RPG v3.1.4.5";
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
 
+
+//Cl
+[] execVM "AdminTool\loop.sqf"; //AdminTools
+[] execVM "Launchthirdperson.sqf"; //Third person
+// call compile preProcessFileLineNumbers "Map_addons.sqf";
+
+
 StartProgress = true;

@@ -9,8 +9,10 @@
 */
 private["_binConfigPatches","_cfgPatches","_endM"];
 if(isServer && !hasInterface) exitWith {}; //Server doesn't need to know.
+exitWith {};
 #define __CONST__(var1,var2) var1 = compileFinal (if(typeName var2 == "STRING") then {var2} else {str(var2)})
 #define __GETC__(var) (call var)
+exitWith {};
 
 __CONST__(W_O_O_K_I_E_ANTI_ANTI_HAX,"No");
 __CONST__(W_O_O_K_I_E_FUD_ANTI_ANTI_HAX,"No");

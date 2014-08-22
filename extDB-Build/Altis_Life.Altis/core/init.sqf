@@ -30,11 +30,16 @@ diag_log "::Life Client:: Received server functions.";
 diag_log "::Life Client:: Waiting for the server to be ready..";
 waitUntil{!isNil "life_server_isReady"};
 waitUntil{(life_server_isReady OR !isNil "life_server_extDB_notLoaded")};
+
+/*
 if(!isNil "life_server_extDB_notLoaded") exitWith {
 	diag_log "::Life Client:: Server did not load extDB";
 	999999 cutText ["The server-side extension extDB was not loaded into the engine, report this to the server admin.","BLACK FADED"];
 	999999 cutFadeOut 99999999;
 };
+*/
+
+
 [] call SOCK_fnc_dataQuery;
 waitUntil {life_session_completed};
 0 cutText["Finishing client setup procedure","BLACK FADED"];
