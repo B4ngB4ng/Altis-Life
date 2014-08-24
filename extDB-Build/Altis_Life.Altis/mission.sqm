@@ -3593,7 +3593,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=532;
+		items=533;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -7808,7 +7808,7 @@ class Mission
 			vehicle="Land_Laptop_unfolded_F";
 			skill=0.60000002;
 			text="hq_lt_1";
-			init="this enableSimulation false; this allowDamage false; this addAction[""Federal Reserve - Front Entrance"",life_fnc_fedCamDisplay,""front""];  this addAction[""Federal Reserve - Side Entrance"",life_fnc_fedCamDisplay,""side""];  this addAction[""Federal Reserve - Back Entrance"",life_fnc_fedCamDisplay,""back""];  this addAction[""Federal Reserve - Vault View"",life_fnc_fedCamDisplay,""vault""]; this addAction[""Turn Off Display"",life_fnc_fedCamDisplay,""off""];";
+			init="this enableSimulation false; this allowDamage false;this addAction[""Boarder1"",life_fnc_fedCamDisplay,""Boarder1""]; this addAction[""Federal Reserve - Front Entrance"",life_fnc_fedCamDisplay,""front""];  this addAction[""Federal Reserve - Side Entrance"",life_fnc_fedCamDisplay,""side""];  this addAction[""Federal Reserve - Back Entrance"",life_fnc_fedCamDisplay,""back""];  this addAction[""Federal Reserve - Vault View"",life_fnc_fedCamDisplay,""vault""]; this addAction[""Turn Off Display"",life_fnc_fedCamDisplay,""off""];";
 		};
 		class Item414
 		{
@@ -9088,6 +9088,17 @@ class Mission
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
 			init="this attachTo [license_shop_1_1,[0,1,0]]; this allowDamage false; this enableSimulation false;";
+		};
+		
+		class Item532
+		{
+			position[]={16596.771,8.1978598,15754.179};
+			id=3;
+			side="EMPTY";
+			vehicle="Land_Laptop_unfolded_F";
+			leader=1;
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;this addAction[""Boarder1"",life_fnc_fedCamDisplay,""Boarder1""];this addAction[""Boarder2"",life_fnc_fedCamDisplay,""Boarder2""]; this addAction[""Boarder3"",life_fnc_fedCamDisplay,""Boarder3""];this addAction[""Boarder4"",life_fnc_fedCamDisplay,""Boarder4""]; this addAction[""Turn Off Display"",life_fnc_fedCamDisplay,""off""];";
 		};
 	};
 	class Markers

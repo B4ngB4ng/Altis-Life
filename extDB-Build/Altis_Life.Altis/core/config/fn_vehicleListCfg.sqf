@@ -101,7 +101,10 @@ switch (_shop) do
 		_return =
 		[
 			["B_Heli_Light_01_F",253000],
-			["O_Heli_Light_02_unarmed_F",750000]
+			["O_Heli_Light_02_unarmed_F",750000],
+			["I_Heli_Transport_02_F",7500],
+			["O_UAV_01_F",2000]
+			
 		];
 	};
 	
@@ -114,6 +117,10 @@ switch (_shop) do
 			_return set[count _return,
 			["B_Heli_Transport_01_F",200000]];
 		};
+		_return set[count _return,
+		["O_Heli_Light_02_unarmed_F",750000]];
+		_return set[count _return,
+		["B_UAV_01_F",2000]];
 	};
 	
 	case "cop_airhq":
@@ -126,6 +133,12 @@ switch (_shop) do
 			["B_Heli_Transport_01_F",200000]];
 			_return set[count _return,
 			["B_MRAP_01_hmg_F",750000]];
+			_return set[count _return,
+			["I_Heli_light_03_unarmed_F",100]];
+			_return set[count _return,
+			["O_Heli_Light_02_unarmed_F",7500]];
+				_return set[count _return,
+			["I_Heli_Transport_02_F",7500]];
 		};
 	};
 	

@@ -41,6 +41,7 @@ switch(_shop) do
 						["Medikit",nil,1000],
 						["NVGoggles",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
+						["B_UavTerminal",nil,50],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",125]
 					]
 				];
@@ -213,6 +214,7 @@ switch(_shop) do
 				["Chemlight_yellow",nil,300],
 				["Chemlight_green",nil,300],
 				["Chemlight_blue",nil,300]
+
 			]
 		];
 	};

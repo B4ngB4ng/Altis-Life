@@ -42,6 +42,30 @@ switch (_mode) do {
 		life_fed_scam camCommit 0;
 	};
 	
+	case "Boarder1": {
+		life_fed_scam camSetPos [16775.598,15714.496,20];
+		life_fed_scam camSetTarget [16756.574,15751.605,0];
+		life_fed_scam camCommit 0;
+	};
+	
+	case "Boarder2": {
+		life_fed_scam camSetPos [17392.607,16125.938,40];
+		life_fed_scam camSetTarget [17345.969,16130.619,25];
+		life_fed_scam camCommit 0;
+	};
+	
+	case "Boarder3": {
+		life_fed_scam camSetPos [18087.293,17711.912,15];
+		life_fed_scam camSetTarget [18041.018,17727.441,30];
+		life_fed_scam camCommit 0;
+	};
+	
+	case "Boarder4": {
+		life_fed_scam camSetPos [16700,16690,4.71753,20];
+		life_fed_scam camSetTarget [16698,16939.7,0];
+		life_fed_scam camCommit 0;
+	};
+	
 	case "off" :{
 		life_fed_scam cameraEffect ["terminate", "back"];
 		camDestroy life_fed_scam;
