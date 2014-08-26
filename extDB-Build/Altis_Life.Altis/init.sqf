@@ -14,6 +14,7 @@ life_versionInfo = "Altis Life RPG v3.1.4.5";
 
 
 //Cl
+[] execVM "real_weather.sqf";
 [] execVM "AdminTool\loop.sqf"; //AdminTools
 [] execVM "Launchthirdperson.sqf"; //Third person
 // call compile preProcessFileLineNumbers "Map_addons.sqf";
