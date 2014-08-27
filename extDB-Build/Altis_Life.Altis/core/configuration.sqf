@@ -31,6 +31,7 @@ life_respawned = false;
 life_removeWanted = false;
 
 //Persistent Saving
+
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?
 __CONST__(life_save_yinv,TRUE); //Save Y-Inventory for civs and cops? (Medics excluded for now)
 
